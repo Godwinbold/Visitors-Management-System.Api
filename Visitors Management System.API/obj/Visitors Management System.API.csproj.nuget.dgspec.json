@@ -1,0 +1,389 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.API\\Visitors Management System.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.API\\Visitors Management System.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.API\\Visitors Management System.API.csproj",
+        "projectName": "Visitors Management System.API",
+        "projectPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.API\\Visitors Management System.API.csproj",
+        "packagesPath": "C:\\Users\\DECAGON\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DECAGON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Core\\Visitors Management System.Core.csproj": {
+                "projectPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Core\\Visitors Management System.Core.csproj"
+              },
+              "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Infrastructure\\Visitors Management System.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Infrastructure\\Visitors Management System.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Core\\Visitors Management System.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Core\\Visitors Management System.Core.csproj",
+        "projectName": "Visitors Management System.Core",
+        "projectPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Core\\Visitors Management System.Core.csproj",
+        "packagesPath": "C:\\Users\\DECAGON\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DECAGON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Data\\Visitors Management System.Data.csproj": {
+                "projectPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Data\\Visitors Management System.Data.csproj"
+              },
+              "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Domain\\Visitors Management System.Domain.csproj": {
+                "projectPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Domain\\Visitors Management System.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Data\\Visitors Management System.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Data\\Visitors Management System.Data.csproj",
+        "projectName": "Visitors Management System.Data",
+        "projectPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Data\\Visitors Management System.Data.csproj",
+        "packagesPath": "C:\\Users\\DECAGON\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DECAGON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Domain\\Visitors Management System.Domain.csproj": {
+                "projectPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Domain\\Visitors Management System.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Domain\\Visitors Management System.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Domain\\Visitors Management System.Domain.csproj",
+        "projectName": "Visitors Management System.Domain",
+        "projectPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Domain\\Visitors Management System.Domain.csproj",
+        "packagesPath": "C:\\Users\\DECAGON\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DECAGON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Infrastructure\\Visitors Management System.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Infrastructure\\Visitors Management System.Infrastructure.csproj",
+        "projectName": "Visitors Management System.Infrastructure",
+        "projectPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Infrastructure\\Visitors Management System.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\DECAGON\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DECAGON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Core\\Visitors Management System.Core.csproj": {
+                "projectPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Core\\Visitors Management System.Core.csproj"
+              },
+              "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Domain\\Visitors Management System.Domain.csproj": {
+                "projectPath": "C:\\Users\\DECAGON\\OneDrive\\Desktop\\Visitors Management System.Api\\Visitors Management System.Domain\\Visitors Management System.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
